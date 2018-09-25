@@ -1,18 +1,14 @@
-section {
-  display: flex;
-  clear: both;
-}
-
 iframe{
+  clear: both;
   text-align: center;
-  margin-left: auto;   /* Automatic margin from left */
-  margin-right: auto; /* Automatic margin from right */
+  margin:10px;
 }
 
 body{
   background-color: #6542f4;
   font-family: Sans-Serif;
 }
+
 .column {
     margin:10px;
     float: left;
@@ -22,6 +18,10 @@ body{
 img {
     float: left;
     width: 100%;
+}
+
+img:hover{
+   opacity: 0.5;
 }
 
 nav {
@@ -36,8 +36,8 @@ nav {
 }
 
 aside {
-  float: right;
-  clear: both;
+  padding: 20px 0;
+  text-align:center;
 }
 
 footer {
@@ -51,3 +51,4 @@ form {
 h1{
   text-align: center;
 }
+
